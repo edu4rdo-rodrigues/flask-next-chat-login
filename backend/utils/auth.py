@@ -1,4 +1,4 @@
-# flask-react-login/backend/utils/auth.py
+# flask-next-login/backend/utils/auth.py
 
 from flask import session
 from models.usuario import Usuario  # Importe a classe de modelo de usuário, ajuste o caminho conforme necessário
@@ -27,6 +27,9 @@ def authenticate_user(email, senha):
         return usuario.id  # Retorne o ID do usuário autenticado
 
     return None  # Retorne None se a autenticação falhar
+
+
+
 
 def login_user(user_id):
     session['user_id'] = user_id

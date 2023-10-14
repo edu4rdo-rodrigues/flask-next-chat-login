@@ -1,4 +1,4 @@
-# flask-react-chat-login/backend/routes/routeLogin.py
+# flask-next-chat-login/backend/routes/routeLogin.py
 
 from flask import jsonify, request
 import jwt  # Você precisará instalar a biblioteca JWT
